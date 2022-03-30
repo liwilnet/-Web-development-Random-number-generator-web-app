@@ -1,0 +1,31 @@
+body {
+  background-color: aqua;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+
+  align-content: center;
+  flex-direction: column;
+  /* width: 100vh; */
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: auto;
+  background-color: palegreen;
+  padding: 10px;
+  border-radius: 10px;
+}
+.total {
+  background-color: hotpink;
+  padding: 5px;
+  width: 150px;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px auto;
+  border-radius: 10px;
+}
